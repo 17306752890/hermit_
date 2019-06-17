@@ -1,0 +1,334 @@
+.head{
+    background: #ccc;
+    width: 100%;
+    height: 50px;
+
+
+}
+p{
+    font-size: 16px;
+    letter-spacing:3px
+}
+.mainMessage{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    width: 1200px;
+    margin:  0 auto;
+
+}
+
+.advantage{
+    width: 100%;
+    height: 400px;
+    background: #ccc;
+    padding-top: 70px;
+    overflow: hidden;
+}
+.foot{
+    height: 500px;
+    width: 100%;
+    /*background: aquamarine;*/
+    overflow: hidden;
+}
+/*右侧*/
+.right_mouseover{
+    background: #ffb153;
+    color: white;
+}
+.right_bottom{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 240px;
+}
+.right_bottom1{
+    width: 80px;
+    height: 80px;
+    border: #ffb153 1px solid;
+}
+.right_bottom a{
+    display: block;
+    width:33px;
+    height: 40px;
+    margin: 10px auto;
+}
+ /*head*/
+.head li{
+    float: left;
+
+}
+.head ul{
+    position: absolute;
+    left: 20%;
+}
+.head a{
+    display: inline-block;
+        margin-top: 10px;
+        font-size: 16px;
+}
+.search{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    border: solid 1px black;
+    margin-left: 1100px;
+
+}
+.btnsear{
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+
+}
+.head_user{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+ img{
+     width: 300px;
+     height: 225px;
+ }
+ .img1{
+
+    width: 600px;
+    height: 450px;
+}
+
+
+/*主要信息部分*/
+.mainMessage_pic{
+    position: absolute;
+    left: 5%;
+    top: 60px;
+    width: 600px;
+    height: 450px;
+    margin-top: 40px;
+}
+.mainMessage_bt{
+    position: absolute;
+    left: 5%;
+    font-size: 30px;
+    margin-top: 15px;
+
+}
+
+.time{
+    width: 300px;
+    height: 200px;
+    /*background: aquamarine;*/
+    position: absolute;
+    left: 70%;
+    top: 15%;
+}
+.date,.person{
+    font-size: 20px;
+    /*background: lightgray;*/
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.bq{
+    border-radius: 10px;
+    float: left;
+    padding: 3px 7px ;
+    margin: 4px 20px;
+    border: 1px rgba(204, 204, 204, 0.67) solid;
+}
+.location{
+    /*background: #cccccc;*/
+    position:absolute ;
+    width: 300px;
+    height: 250px;
+    top: 45%;
+    left: 70%;
+
+}
+
+.location span{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/*优点*/
+.advantage_bt{
+    font-size: 50px;
+    position: absolute;
+    left: 6%;
+    margin-top: -70px;
+}
+.advantage_sbt{
+    font-size: 30px;
+    position: absolute;
+    left: 20%;
+    margin-top: -60px;
+}
+.advantage1{
+
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    text-indent :40px;
+}
+
+.adv_p{
+    width:  1200px;
+}
+
+/*评论区*/
+.remark{
+    /*height: 400px;*/
+    width: 1200px;
+    /*background: #6DB89A;*/
+    margin: 0 auto;
+    /*position: absolute;*/
+}
+.comment1{
+    margin-bottom: 150px;
+}
+.lever{
+    width: 70px;
+    height: 100px;
+    margin-left:40px;
+    padding-top: 20px;
+    /*background: #7CC899;*/
+}
+.lever span{
+    color: rgb(152,1,50);
+    padding-left: 10px;
+
+}
+.link{
+    width: 90%;
+    height: 1px;
+    border-top: solid #ACC0D8 1px;
+    margin-left: 40px;
+    margin: 50px 0;
+
+}
+.com_bt{
+    font-size: 30px;
+    margin-left: 40px;
+}
+.content{
+    position: absolute;
+    left: 25%;
+    width: 800px;
+    /*background: #00E8D7;*/
+    margin-top: -110px;
+}
+.username{
+    font-size: 16px;
+    color: black;
+    margin:20px 40px;
+}
+.content p{
+    font-size: 10px;
+    text-indent :40px;
+}
+.content img{
+    width: 186px;
+    height: 120px;
+    padding: 10px 30px;
+}
+
+/*footer*/
+.foot_body{
+    width: 1200px;
+    position: absolute;
+    /*background: #00E8D7;*/
+    height: 500px;
+    left: 18%;
+}
+
+.comment{
+    /*background: #6DB89A;*/
+    width: 1200px;
+    border: #ccc solid 1px;
+    border-radius: 10px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    overflow: hidden;
+}
+
+.add{
+    margin-top: 10px;
+    position: absolute;
+    left: 3%;
+    font-size: 16px;
+}
+.goon a{
+    margin-top: 10px;
+    position: absolute;
+    left: 90%;
+     font-size: 16px;
+}
+.inputComment{
+    width: 1100px;
+    height: 200px;
+    position: absolute;
+    left: 4%;
+    top: 90px;
+    border-radius: 20px;
+}
+.sub{
+    position: absolute;
+    left: 1100px;
+    top: 300px;
+}
+
+.gg{
+    position: fixed;
+    width: 252px;
+    height: 249px;
+    left: 0%;
+    bottom: 0%;
+}
+.xx{
+    position: fixed;
+    left: 246px;
+    bottom: 247px;
+}
+
+.share{
+    width: 600px;
+    height: 180px;
+    border: solid 1px black;
+    position: fixed;
+    left: 700px;
+    top: 200px;
+    display: none;
+
+}
+.share span{
+    position: relative;
+    left: 20px;
+}
+.share img{
+    width: 80px;
+    height: 80px;
+}
+.fx{
+    float: left;
+    margin: 40px 50px;
+
+}
+.share_x{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+

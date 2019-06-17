@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/basis_1.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/basis.js"></script>
+</head>
+<body>
+<div style="width:100%;height:100%;background:snow;opacity:60%;"id="boss_1">
+<div id="box">
+    <div id="box1">
+        <a href="#"><span id="delete_1" style="">X</span></a>
+        <a href="#"><span id="send_1" style="border:1px solid black;padding:1px 5px;border-radius:4px;font-size:15px;">发布</span></a>
+    </div>
+    <div id="box2"><input id="title" type="text" value="给您的推荐地点取一个拉风的名字吧"><span style="position:absolute;right:0"><span>0<span><span>/20</span></span></div>
+    <div id="box3"><input id="suggest" type="text" value="写一段简介来介绍以下一个推荐地点吧。" style="width:100%;height: 100%;border:none;"></div>
+    <div id="box4">
+        <span>
+            <div class="box_7">
+                <a href="#"><div class="box8">
+                    <img src="picture/picture.png" style="position:relative;left:20px;top:20px">
+                </div></a>
+                <div style="position:relative;bottom:2px;">上传封面图片</div>
+            </div>
+        </span>
+        <span>
+            <div class="box_7">
+                <a href="#"><div class="box8">
+                    <img src="picture/mp4.png" style="position:relative;left:20px;top:20px">
+                </div></a>
+                <div>上传封面视频</div>
+            </div>
+        </span>
+    </div>
+    <div id="box5">
+        <ul>
+            <li><img src="picture/place_1.png">位置<input id="place_2" value="点击选择地点"></li>
+            <li><img src="picture/money_1.png">收费
+                <form>
+                <input type="radio" name="popular"checked>是
+                <input type="radio" name="popular">否
+                    </form>
+            </li>
+            <li><img src="picture/book_1.png">藏书量
+                <span>
+                <a href="#" id="book_1"><span>☆</span></a>
+                <a href="#" id="book_2"><span>☆</span></a>
+                <a href="#" id="book_3"><span>☆</span></a>
+                <a href="#" id="book_4"><span>☆</span></a>
+                <a href="#" id="book_5"><span>☆</span></a>
+                </span>
+            </li>
+            <li><img src="picture/home_1.png">室内面积
+                <span>
+                <a href="#" id="home_1"><span>☆</span></a>
+                <a href="#" id="home_2"><span>☆</span></a>
+                <a href="#" id="home_3"><span>☆</span></a>
+                <a href="#" id="home_4"><span>☆</span></a>
+                <a href="#" id="home_5"><span>☆</span></a>
+                </span>
+            </li>
+            <li><img src="picture/sit.png">座位数量
+                <span>
+                <a href="#" id="sit_1"><span>☆</span></a>
+                <a href="#" id="sit_2"><span>☆</span></a>
+                <a href="#" id="sit_3"><span>☆</span></a>
+                <a href="#" id="sit_4"><span>☆</span></a>
+                <a href="#" id="sit_5"><span>☆</span></a>
+                </span>
+            </li>
+            <li>人均消费<input id="money_2" value="人均消费">元/人</li>
+        </ul>
+    </div>
+    <div id="box7"><input id="bottom_1" type="text" value="说点什么..." style="width:100%;height:100%;background: #f1f9ef;border:none;"></div>
+</div>
+    </div>
+</body>
+</html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/hermitstyle.css">
+    <script src="./jquery-1.12.4.min.js"></script>
+<!--    <link rel="import" href="新建.html">-->
+<!--    <script src="../js/mjs.js"></script>-->
+    <script src="./js/mjs.js"></script>
+</head>
+<body>
+    <div id="lgin_1" style="display: none">
+<body style="background-color: lavenderblush">
+
+<div class="login_window">
+    <img id="image1" src="https://cli-sta.guazistatic.com/c2c_wap/close.88d847743dabff466b1a30919dadcbb1.png">
+
+    <div class="window_top">登录</div>
+
+    <div class="window_middle">
+        <form>
+            <div>
+                <p>手机号码</p><input class="input1" type="text" name="phone" placeholder="请输入11位手机号码">
+                <div id="null">请输入手机号</div>
+                <div id="erro">请输入正确的手机号</div>
+            </div>
+
+            <div>
+                <p>验证码</p><input class="input2" type="text" name="code" placeholder="输入收到的的验证码"><input class="input3" type="submit" value="验证码">
+            </div>
+        </form>
+    </div>
+
+    <button id="btn">登录</button>
+
+
+
+    <div class="window_bottom">---------------------------------其他登录方式----------------------------------------</div>
+    <div class="login_type">
+        <a href="#"><img class="pt" src="pic/QQ.jpg" alt="QQ"></a>
+        <a href="#"><img class="pt" src="pic/微信.jpg" alt="微信"></a>
+        <a href="#"><img class="pt" src="pic/微博.jpg" alt="微博"></a>
+    </div>
+    <div class="window_bottom_two">登录即代表你同意
+        <a href="#">《用户协议》</a>，
+        <a href="#">《隐私政策》</a>和
+        <a href="#">中移动认证服务协议</a>
+    </div>
+</div>
+</body>
+</div>
+    <div id="boss_2">
+    <div class="header">
+        <div class="logo-box">
+            <a href="#"><div class="logo-pic"></div></a>
+        </div>
+        <div>
+            <p>杭州</p>
+        </div>
+        <div>
+            <p><a href="#" id="new_1">添加书店</a></p>
+        </div>
+        <div class="search">
+            <input class="search-input" type="text" id="search" placeholder="搜索">
+            <a href=""><img class="search-btn" src="img/search.jpg" alt="" width="32" height="32"></a>
+        </div>
+        <div>
+            <div class="login-register">
+                <span id="set_1">
+                <a class="login-register-link" href="#">登录</a>
+                <span>|</span>
+                <a class="login-register-link" href="#">注册</a>
+                </span>
+                <span id="user_1" style="position:relative;">
+                    <span style="background:url('./pic/user_herd.gif');background-size:16px 16px;width:16px;height:16px;display:inline-block"></span>
+                    <span>good luck</span>
+                    <button id="bye_1" style="">退出</button>
+                    <span>
+                        <div>
+
+                        </div>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="pic-box">
+
+        </div>
+        <div class="body-nav">
+            <ul>
+                <span>类型</span>
+                <li>不限</li>
+                <li>综合书店</li>
+                <li>特色书店</li>
+                <li>主题书店</li>
+                <li>专业书店</li>
+            </ul>
+            <ul>
+                <span>评分</span>
+                <li>不限</li>
+                <li><5分</li>
+                <li>5.0-5.9分</li>
+                <li>6.0-6.9分</li>
+                <li>7.0-7.9分</li>
+                <li>8.0-8.9分</li>
+                <li>9.0-10分</li>
+            </ul>
+            <ul>
+                <span>距离</span>
+                <li>不限</li>
+                <li><1km</li>
+                <li>1km-3km</li>
+                <li>3km-5km</li>
+                <li>5km-7km</li>
+                <li>7km-10km</li>
+                <li>>10km</li>
+            </ul>
+            <ul>
+                <span>消费</span>
+                <li>不限</li>
+                <li><50元</li>
+                <li>50-80元</li>
+                <li>80-100元</li>
+                <li>100-150元</li>
+                <li>>150元</li>
+            </ul>
+        </div>
+        <div class="body-bottom">
+            <ul>
+                <li>
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-pic snail-pic">
+
+                            </div>
+                        </a>
+                        <div class="item-info">
+                            <a href="#">
+                                <h3>网易蜗牛读书馆</h3>
+                            </a>
+                            <!-- <span>杭州高新区&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.8KM</span>
+                            <br> -->
+                            <p style="height: 21px;">
+                                <span style="float: left;">杭州高新区</span>
+                                <span style="float: right;">9.8KM</span>
+                            </p>
+                            <p>整体评分：10分</p>
+                            <p>￥0/人</p>
+                            <p>简介：读书馆附近的公园、社区、学校和企业将实现网易蜗牛读书 APP 不限时免费畅读。在未来——这里将成为多样文化交流空间也将成为杭州文艺新地标。</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <a href="#">
+                            <div class="item-pic xiaoWang-pic">
+
+                            </div></a>
+                        <div class="item-info">
+                            <a href="../项目/detail2.html">
+                                    <h3>王小波书店</h3>
+                            </a>
+                            <p style="height: 21px;">
+                                <span style="float: left;">钱江区钱塘江畔</span>
+                                <span style="float: right;">9.5KM</span>
+                            </p>
+                            <p>整体评分：9.0分</p>
+                            <p>￥0/人</p>
+                            <p>简介：书店面积并不算大，大概100平方米左右。老板专门在左侧书架设立了一栏“王”</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <a href="">
+                            <div class="item-pic yuelanshu-pic">
+
+                            </div>
+                        </a>
+                        <div class="item-info">
+                            <a href="../项目/detail1.html"><h3>悦览树</h3></a>
+                            <!-- <span>青年路31号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;23.4KM</span>
+                            <br> -->
+                            <p style="height: 21px;">
+                                <span style="float: left;">青年路31号</span>
+                                <span style="float: right;">23.4KM</span>
+                            </p>
+                            <p>整体评分：8.0分</p>
+                            <p>￥30/人</p>
+                            <p>简介：悦览树提供更加优质的服务和24小时营业的特点，开放式的消费和更加人性。。。</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <a href="../项目/detail3.html">
+                            <div class="item-pic zhongshuge-pic">
+
+                            </div>
+                        </a>
+                        <div class="item-info">
+                            <a href="../项目/detail3.html"><h3>钟书阁</h3></a>
+                            <!-- <span>滨江区江南大道228号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.5KM</span>
+                            <br> -->
+                            <p style="height: 21px;">
+                                <span style="float: left;">滨江区江南大道228号</span>
+                                <span style="float: right;">5.5KM</span>
+                            </p>
+                            <p>整体评分：9.0分</p>
+                            <p>￥0/人</p>
+                            <p>简介：透明的建筑风格，令人眼花缭乱的书，还有各种有特色的你想不到的设计，你。。。。</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <div class="chicken-soup">
+            <div class="soup-pic"></div>
+            <div class="soup-content">
+                <p id="soup-p">每日一读</p>
+                <div class="soupContent" id="chicken-soup-1">
+                        真正的爱，是接受，不是忍受；是支持，不是支配；是慰问，不是质问；真正的爱，要道谢也要道歉。要体贴，也要体谅。要认错，也好改错；真正的爱，不是彼此凝视，而是共同沿着同一方向望去。其实，爱不是寻找一个完美的人。而是，要学会用完美的眼光，欣赏一个并不完美的人。
+                </div>
+                <div class="soupContent" id="chicken-soup-2">
+                        在对的时间，遇见对的人，是一生幸福；在对的时间，遇见错的人，是一场心伤； 在错的时间，遇见错的人，是一段荒唐；在错的时间，遇见对的人，是一阵叹息。
+                </div>
+                <div class="soupContent" id="chicken-soup-3">
+                        放弃是一门艺术，它不是叫你盲目的逃避，而是要你明白痛苦的维系还不如放弃！学会放弃，在落泪以前转身离去，留下简单的背影。将昨天埋在心底，留下最美好的回忆。学会放弃，让彼此都能有个更轻松的开始，遍体鳞伤的爱并不一定就刻骨铭心！
+                </div>
+                <div class="soupContent" id="chicken-soup-4">
+                        如果，如果你可以在友爱的包容下，随意的哭泣，随意的发脾气，随意的穿着，随意的说话，随意的把自己最最脆弱的一面发泄出来，你知道他（她）不会轻看你，不会因此骂你没有出息，不会觉得你没有本事，不会给你压力，只会默默地看着你，聆听，微笑…多么美，你该多么幸福！
+                </div>
+                <div class="soupContent" id="chicken-soup-5">
+                        生命中，不断地有人离开或进入。于是，看见的，看不见了；记住的，遗忘了。------生命中，不断地有得到和失落。于是，看不见的，看见了；遗忘的，记住了。------然而，看不见的，是不是就等于不存在？记住的，是不是永远不会消失？------几米
+                </div>
+                <div class="soupContent" id="chicken-soup-6">
+                        女孩子并不在乎你有没有钱，她在乎的是你会不会发奋努力改变现状；女孩子并不在乎与你一起生活会遇到困难，她在乎的是你会不会迎难而上；女孩子并不在乎你有多浪漫，她在乎的是能不能从生活的点滴中感受到你的爱；女孩子并不在乎你现在的境况如何，她在乎的是你能不能让她看到你们的未来……
+                </div>
+                <div class="soupContent" id="chicken-soup-7">
+                        为你的难过而快乐的是敌人，为你的快乐而快乐的是朋友，为你的难过而难过的就是那些该放进心底的人。
+                </div>
+                <div class="soupContent" id="chicken-soup-8">
+                        我爱你不是因为你是谁，而是因为我在你面前可以是谁。在感情的世界里，没有谁比谁更高尚，只有谁比谁更真实。如果不快乐请不要皱眉，要保持微笑，因为有个人正爱上了你的笑容。对于世界而言，你是一个人；但是对于我而言，你是我的全世界。
+                </div>
+                <div class="soupContent" id="chicken-soup-9">
+                        道理知道，未必懂。懂，未必领悟，领悟，也可以继续装糊涂。很多满口大道理的人，都在堂而皇之的违逆自己上一秒的誓言。神圣的外表下，装着多肮脏的灵魂。珍爱生命，远离这些似兽非人。
+                </div>
+                <div class="soupContent" id="chicken-soup-10">
+                        如果你不爱一个人，请放手，好让别人有机会爱她。如果你爱的人放弃了你，请放开自己，好让自己有机会爱别人。有的东西你再喜欢也不会属於你的，有的东西你再留恋也注定要放弃的，爱是人生中一首永远也唱不完的歌。人一生中也许会经历许多种爱，但千万别让爱成为一种伤害。
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+</body>
+</html>
